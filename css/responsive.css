@@ -1,0 +1,66 @@
+@media screen and (max-width: 1550px) {
+    .bitcoincoin{
+        margin-top: 25px;
+        height: 350px;
+        width: 350px;
+        transition: 0.1s;
+    }
+
+    .rightbox {
+        margin-right: 15px;
+        margin-top: 7%;
+        background-color: rgba(105, 105, 105, 0.4);
+        border-radius: 18px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .bitcoincoin{
+        margin-top: 25px;
+        height: 250px;
+        width: 250px;
+        transition: 0.1s;
+    }
+
+    
+    .title {
+        font-size: 35px;
+        width: 250px;
+    }
+
+    .info {
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 15px;
+        color: rgba(244, 240, 236);
+    }
+
+
+}
+
+@media screen and (max-width: 850px) {
+    
+    #Shop {
+        margin-top: 15px;
+        margin-left: 15px;
+        width: 300px;
+        height: 275px;
+        overflow: scroll;
+        color: rgba(244, 240, 236);
+    }
+
+    .popupContent {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 40%;
+    }
+
+    .info {
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 15px;
+        color: black;
+    }
+}

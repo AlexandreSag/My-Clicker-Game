@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/127ad3da92.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
+    <script src="js/script.js"></script>
+    <script src="js/fall.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="image/bitcoincoin.png">
+    <title>Bitcoincoin Clicker</title>
+</head>
+<body>
+    <div class="leftbox">
+        <h1 class="title">Bitcoincoin Clicker<i class="fab fa-bitcoin titleB"></i></h1>
+        <div class="info">
+            <section>
+                <p>Bitcoincoin:</p>
+                <p id="ShowGolds"></p><br>
+            </section>
+
+            <section>
+                <p>Hashing Power : </p>
+                <p id="ShowGps"></p>
+            </section>
+           
+            <section>
+                <button class="button" name="Store" type="button" onclick="storeData()">Save</button>
+                <button class="button" name="Load" type="button" onclick="loadData()">Load</button>
+            </section>
+
+            <div id="save" class="save">
+                <p><i class="fas fa-check-circle check"></i>&nbspSave Complete</i></p>
+            </div>
+
+            <div id="valided" class="save">
+                <p><i class="fas fa-check-circle check"></i>&nbspSave Load</i></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="midllebox">
+        <img src="image/bitcoincoin.png" alt="bitcoincoin" class="bitcoincoin" onclick="addGold(clickValue); Falling(event)">
+    
+        <div id="PopUp" class="popup">
+            <div class="popupContent">
+                <p><i class="fas fa-exclamation-triangle warning"></i>&nbspTu n'a pas asser de Bitcoincoin!!&nbsp<i class="fas fa-exclamation-triangle warning"></i></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="rightbox">
+        <h2>GPU SHOP:</h2>
+        <section id="Shop"></section>
+    </div>
+
+    <script>displayGolds();</script>
+    <script>displayGPS();</script>
+    <script>displayShop();</script>
+</body>
+</html>
